@@ -24,3 +24,5 @@ logs/logrotate
 test-coverage
 coverage.shield.badge.md
 _drafts
+setup/docker/.vols/
+setup/docker/redis_cache_data/

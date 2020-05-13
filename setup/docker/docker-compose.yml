@@ -6,8 +6,7 @@ services:
     # Define `ports` ONLY for public services, not for internal communication
     # between containers
     ports:
-      - "80:80"
-      - "443:443"
+      - "81:80"
     env_file:
       - ./envfile.txt
     volumes:
@@ -49,3 +48,10 @@ services:
       - ../redis/conf/redis-enketo-cache.conf:/etc/redis/redis.conf:ro
       - ./redis_cache_data/:/data/
     restart: unless-stopped
+
+  docker-host:
+    image: qoomon/docker-host
+    cap_add: [ 'NET_ADMIN', 'NET_RAW' ]
+    restart: on-failure
+    environment:
+      - PORTS=8081
