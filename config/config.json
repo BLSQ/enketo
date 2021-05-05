@@ -1,0 +1,18 @@
+{
+    "encryption key": "EyPsbphUJwjy7d/2i9I8697ysfuaB3OY28TCaqrotKoaC9WPwCrEberBbVY+qtTTQWYGcgQadztHiTixv31touNfS1CSpwr3eITrv/gu7neszYoZYjowRoJBR8H/NPqxbCWJUspek6zQMNj+tei1VH4Wr6VU5znQKTXK4VrWfvVY/LTARkyHZs2vIQSoMzdw5Eqr09uAcrLRMtR+wEBq1/3dFf3UO2PDI5iTvnZfGbL7Rqi3IiI5IDb42mLf6TV88wAfNX/4fckVOn17eBPDzmjpuNbFvhc3GpjjBwM1qVVbE09hMlA1RhuthV2kI4XE17jjNr7IFu4x24HJ6nKLNA==",
+    "linked form and data server": {
+        "api key": "AZE78974654azeAZE",
+        "name": "Forms",
+        "server url": "http://docker-host:8081/api/enketo"
+    },
+    "offline enabled": true,
+    "redis": {
+        "cache": {
+            "host": "redis_cache",
+            "port": "6379"
+        },
+        "main": {
+            "host": "redis_main"
+        }
+    }
+}
